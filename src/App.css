@@ -1,7 +1,136 @@
 .App {
   text-align: center;
 }
+.banner-content  {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  width: 100%;
 
+}
+.banner-bold{
+  font-family: 'Poppins';
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+
+}
+.banner-bold span{
+  color: rgb(9, 199, 12);
+  word-spacing: 5px;
+}
+.banner-para{
+  font-family: 'Poppins';
+  color: #fff;
+  text-align: center;
+}
+.button1{
+  font-family: "Poppins";
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid rgb(9, 199, 12);
+    border-radius: 10px;
+    background: rgb(9, 199, 12);
+    padding: 10px 25px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-weight: 400;
+}
+.button2{
+  font-family: "Poppins";
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid rgb(9, 199, 12);
+    border-radius: 10px;
+    background: rgb(9, 199, 12);
+    padding: 10px 25px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-weight: 400;
+}
+.button3{
+  font-family: "Poppins";
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid rgb(9, 199, 12);
+    border-radius: 10px;
+    background: rgb(9, 199, 12);
+    padding: 10px 25px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.button4{
+  font-family: "Poppins";
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid rgb(9, 199, 12);
+    border-radius: 10px;
+    background: rgb(9, 199, 12);
+    padding: 10px 25px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.button5{
+  font-family: "Poppins";
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid rgb(9, 199, 12);
+    border-radius: 10px;
+    background: rgb(9, 199, 12);
+    padding: 10px 25px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.button6{
+  font-family: "Poppins";
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid rgb(9, 199, 12);
+    border-radius: 10px;
+    background: rgb(9, 199, 12);
+    padding: 10px 25px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-weight: 400;
+    margin-right: 15px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -24,15 +153,72 @@
   color: white;
 }
 
+.signup-form {
+  display: flex;
+}
+
+.signup-form .fa {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.login-img {
+  width: 90%;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.heading {
+  text-align: center;
+}
+
+.login-title {
+  margin-top: 60px;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+.top-footer {
+  padding:80px 0 40px 0;
+  background: #23243c;
+  position: relative;
+  
+}
+.top-footer h2{
+  color: #fff;
+}
+.top-footer .icon{
+  color: #fff;
+  font-size: 16px;
+}
+.top-footer .para{
+  color: #fff;
+}
+.footer{
+  background: #000;
+}
+.footer-para{
+  padding-top: 15px;
+  text-align: center;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .banner-bold{
+    font-size: 15px;
+  }
+  .banner-para{
+    display: none
+  }
+  .button1{
+    display: none;
   }
 }
