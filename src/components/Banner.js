@@ -17,7 +17,7 @@ export default function Banner() {
           <img src={B2} className="d-block w-100" alt="Notebook" />
           <div className="banner-content"  >
             <h5 className="banner-bold">Cut Down A Tree, Make Paper And Write <br></br> <span>Save The Trees</span> On It</h5>
-            <p className="banner-para">"Now I have the ability to digitally store my notes in "the cloud" and have my notes accessible to me wherever I go."</p>
+            <p className="banner-para">"Now I have the ability to digitally store my notes in "the cloud" and have my notes accessible to me wherever I go." <br></br>'Going Paperless'</p>
             <Link className="button1" to="/" role="button">Learn More</Link>
           </div>
         </div>
